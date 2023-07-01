@@ -1,0 +1,57 @@
+@font-face {
+  font-family: arab;
+  src: url("../public/arabic.ttf");
+}
+body {
+  font-family: arab;
+  background-color: #f0f5f9;
+}
+button {
+  color: #fff;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 3px;
+  padding: 6px;
+}
+input {
+  border: none;
+  border-radius: 3px;
+  padding: 6px;
+}
+.quran-page {
+  background-color: #f0f5f9;
+  padding: 10px;
+  font-family: arab;
+}
+
+.quran-details {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+.center {
+  text-align: center;
+}
+.quran-details h2 {
+  color: #3498db;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.quran-details h3 {
+  color: #2980b9;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 4px;
+}
+.ayat {
+  margin: 5px;
+}
+.ayat p {
+  text-align: right;
+  font-size: 24px;
+  line-height: 48px;
+}
